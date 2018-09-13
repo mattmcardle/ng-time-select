@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "tslint-angular"
+    ],
+    "rules": {
+        "directive-selector": [
+            false,
+            "attribute",
+            [
+                "dir-prefix1",
+                "dir-prefix2"
+            ],
+            "camelCase"
+        ],
+        "component-selector": [
+            false,
+            "element",
+            [
+                "cmp-prefix1",
+                "cmp-prefix2"
+            ],
+            "kebab-case"
+        ],
+        "use-host-property-decorator": [
+            false
+        ]
+    }
+}
